@@ -3,7 +3,7 @@ set -euo pipefail
 
 case "$1" in
     start)
-        if [[ -x /opt/yt-dl/V2_convert_yt.py ]]; then
+        if [[ -f /opt/yt-dl/V2_convert_yt.py ]]; then
             cd /opt/yt-dl
             python3 /opt/yt-dl/V2_convert_yt.py 
         else
