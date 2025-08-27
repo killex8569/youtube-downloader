@@ -11,6 +11,7 @@ install() {
     sudo chmod +x uninstall.sh
     sudo chmod +x install.sh
     sudo chmod +x yt
+    sudo chown -R "$USER:$USER" /opt/yt-dl
 
 
     # move files
