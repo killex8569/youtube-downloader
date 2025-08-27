@@ -3,9 +3,9 @@ set -euo pipefail
 
 case "$1" in
     start)
-        if [[ -x /opt/yt-dl/V2_convert_yt.sh ]]; then
+        if [[ -x /opt/yt-dl/V2_convert_yt.py ]]; then
             cd /opt/yt-dl
-            python3 V2_convert_yt.py 
+            python3 /opt/yt-dl/V2_convert_yt.py 
         else
             echo "Error: /opt/yt-dl/V2_convert_yt.py not found or not executable"
             exit 1
