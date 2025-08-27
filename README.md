@@ -9,7 +9,7 @@ You can install it using the following command:
 `pip install yt_dlp`
 
 
-If you are on linux, you can execute this commands : `cd /tmp ; git clone https://github.com/killex8569/youtube-downloader.git ; cd youtube-downloader ; chmod +x install.sh ; ./install.sh`  
+If you are on linux, you can execute this commands : `cd /tmp ; git clone https://github.com/killex8569/youtube-downloader.git ; cd youtube-downloader ; chmod +x install.sh ; ./install.sh ; cd`  
 
 # how to use it ?
 
