@@ -3,6 +3,7 @@ set -euo pipefail
 
 dell() {
     sudo rm -rf /opt/yt-dl
+    sudo rm -rf /tmp/yt-dl
     sudo rm -f /usr/local/bin/yt
     sudo rm -f /etc/bash_completion.d/yt
     echo "All files have been deleted :( Thanks for using my software !"
