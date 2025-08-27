@@ -8,6 +8,9 @@ To do this, you will need to install the following Python libraries:
 You can install it using the following command:
 `pip install yt_dlp`
 
+
+If you are on linux, you can execute this commands : `cd /tmp ; git clone https://github.com/killex8569/youtube-downloader.git ; cd youtube-downloader ; chmod +x install.sh ; ./install.sh`  
+
 # how to use it ?
 
 This converter will create a directory named "video" where you can store the videos you have downloaded. Note that this folder will be located in the root directory where your Python file is placed. For better usability, I recommend creating a dedicated directory where both your file and folders will be stored
