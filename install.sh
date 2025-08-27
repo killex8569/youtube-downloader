@@ -10,6 +10,8 @@ install() {
     sudo chmod +x update.sh
     sudo chmod +x uninstall.sh
     sudo chmod +x install.sh
+    sudo chmod +x yt
+    sudo chmod +x "bash completion.sh"
 
     # move files
     sudo cp uninstall.sh /opt/yt-dl || echo "uninstall File not found !"
