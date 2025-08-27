@@ -15,7 +15,11 @@ install() {
     sudo cp install.sh /opt/yt-dl || echo "install File not found !"
     sudo cp "V2_convert_yt.py" /opt/yt-dl || echo "Python File not found !"
 
-    cp
+    sudo cp "bash completion.sh" /etc/bash_completion.d/yt
+    source /etc/bash_completion.d/yt
+
+    echo "Installation finished!"
+    sudo rm -rf /tmp/yt-dl
 
 
 }
