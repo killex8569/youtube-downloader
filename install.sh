@@ -11,7 +11,7 @@ install() {
     sudo chmod +x uninstall.sh
     sudo chmod +x install.sh
     sudo chmod +x yt
-    sudo chmod +x "bash completion.sh"
+
 
     # move files
     sudo cp uninstall.sh /opt/yt-dl || echo "uninstall File not found !"
@@ -23,6 +23,7 @@ install() {
     # bash completion
     sudo cp "bash completion.sh" /etc/bash_completion.d/yt
     source /etc/bash_completion.d/yt
+    sudo chmod +x /etc/bash_completion.d/yt
 
     echo "Installation finished!"
     sudo rm -rf /tmp/yt-dl
